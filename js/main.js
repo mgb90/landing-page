@@ -37,6 +37,17 @@ function setBgGreet() {
     let today = new Date(),
     hour = today.getHours();
 
+    // if(hour < 12) {
+    //     document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1920x1080?morning')";
+    //     greeting.textContent = "Good Morning";
+    // } else if (hour < 18) {
+    //     document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1280x720?afternoon')";
+    //     greeting.textContent = "Good Afternoon";
+    // } else {
+    //     document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1920x1080?night')";
+    //     greeting.textContent = "Good Evening";
+    //     document.body.style.color = "white";
+    // }
     if(hour < 12) {
         document.body.style.backgroundImage = "url('img/bg__morning"+ bgNum + ".jpg')";
         greeting.textContent = "Good Morning";

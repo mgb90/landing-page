@@ -22,7 +22,7 @@
             <p id="focus" contenteditable="true"></p>
         </section>
     
-        <section class="content__module content__todo">
+        <!-- <section class="content__module content__todo">
             <h2 class="todo__title">To Do</h2>
             <ul class="todo__list">
                 <li><i class="far fa-check-circle"></i>List Item 1 is pretty long<i class="fas fa-trash"></i></li>
@@ -31,11 +31,29 @@
                 <li><i class="far fa-check-circle"></i>List It..<i class="fas fa-trash"></i></li>
                 <li><i class="far fa-check-circle"></i>List Item 5 i just right<i class="fas fa-trash"></i></li> 
             </ul>
+        </section> -->
+
+        <section class="content__module content__weather">
+            <div class="weather__search">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button><i class="fas fa-search-location"></i></button>
+            </div>
+            <div class="weather__results">
+                <h3 class="weather__city"></h3>
+                <div class="weather__data">
+                  <img src="" alt="" class="weather__icon">
+                  <p class="weather__data__info">Partyl Cloudy</p>  
+                  <p class="weather__data__current">Current: 13°C</p>  
+                  <p class="weather__data__min">Min: 3°C</p>  
+                  <p class="weather__data__max">Max: 13°C</p>  
+                </div>
+            </div>
         </section>
 
     </section>
 
 
    <script src="js/main.js"></script>
+   <script src="js/weather.js"></script>
 </body>
 </html>
